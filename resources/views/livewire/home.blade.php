@@ -12,7 +12,7 @@ use function Livewire\Volt\{state};
             <div class="flex justify-center gap-24">
                 <div class="text-white w-3/5 h-min grid grid-cols-1 gap-3.5">
                     <div class="text-6xl maven-pro-600">Online workplace</div>
-                    <div class="text-6xl maven-pro-600">training made <span class="text-amber-400">simple</span></div>
+                    <div class="text-6xl maven-pro-600 tracking-tight">training made <span class="text-amber-400">Simple</span></div>
                     <div class="text-xl">
                         With our easy-to-use online training platform and extensive library of accredited, high-quality courses, sorting your workplace training is a breeze.
                     </div>
@@ -49,7 +49,7 @@ use function Livewire\Volt\{state};
         </div>
     </div>
 
-    <div class="grid grid-cols-1 gap-4 h-min py-2 px-52">
+    <div class="grid grid-cols-1 gap-20 h-min py-2 px-52">
         <div class="grid grid-cols-2 gap-10">
             <div class="relative">
                 <img class="w-full" src="{{asset('/images/home_1.webp')}}">
@@ -61,7 +61,7 @@ use function Livewire\Volt\{state};
                 <div class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-5xl tracking-tight maven-pro-700 py-4">Simple training delivery</div>
                 <div class="text-lg">An accessible and simple-to-use learning experience which delivers online training effectively for everyone.</div>
                 <div class="text-lg">Our online training courses are compatible on any device, include closed captions, and can be machine translated into over 41 international languages.</div>
-                <div class="inline-flex items-center gap-2">
+                <div class="inline-flex items-center gap-2 pt-10">
                     <div>
                         <svg class="w-6 h-6 text-pink-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m9 5 7 7-7 7" />
@@ -71,5 +71,59 @@ use function Livewire\Volt\{state};
                 </div>
             </div>
         </div>
+        <div class="grid grid-cols-2 gap-10">
+            <div class="h-min grid grid-cols-1 gap-4">
+                <div class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-5xl tracking-tight maven-pro-700 py-4">Simple training delivery</div>
+                <div class="text-lg">An accessible and simple-to-use learning experience which delivers online training effectively for everyone.</div>
+                <div class="text-lg">Our online training courses are compatible on any device, include closed captions, and can be machine translated into over 41 international languages.</div>
+                <div class="inline-flex items-center gap-2 pt-10">
+                    <div>
+                        <svg class="w-6 h-6 text-pink-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m9 5 7 7-7 7" />
+                        </svg>
+                    </div>
+                    <div class="text-pink-500 text-lg hover:underline cursor-pointer">Learn more about training delivery</div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="rounded-3xl shadow-md shadow-black/30 group cursor-pointer">
+                    <div class="bg-amber-400 rounded-t-3xl uppercase text-2xl text-center maven-pro-500 py-8">Approved & accredited</div>
+                    <div class="px-10 py-8 grid grid-cols-1 gap-4 bg-white rounded-b-3xl">
+                        <div class="flex justify-between items-center">
+                            <div class="w-full grayscale group-hover:grayscale-0">
+                                <img src="{{ asset('images/home_2.svg') }}">
+                            </div>
+                            <div class="w-full flex justify-center">
+                                <img class="w-28 grayscale group-hover:grayscale-0" src="{{ asset('images/home_3.svg') }}">
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center gap-12">
+                            <div class="w-full">
+                                <img class="grayscale group-hover:grayscale-0" src="{{ asset('images/home_4.svg') }}">
+                            </div>
+                            <div class="w-full">
+                                <img class="grayscale group-hover:grayscale-0" src="{{ asset('images/home_5.svg') }}">
+                            </div>
+                            <div class="w-full">
+                                <img class="grayscale group-hover:grayscale-0" src="{{ asset('images/home_6.svg') }}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute -z-10 top-3 -right-32 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 blur-lg p-5 w-3/5 aspect-square">
+                    <div class="bg-white p-8 rounded-full w-full h-full">
+                        <div class="bg-gradient-to-r from-pink-500 to-violet-600 w-full h-full p-8 rounded-full">
+                            <div class="bg-white rounded-full w-full h-full">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-24 px-52">
+        <div class="capitalize maven-pro-500 text-2xl">Popular courses</div>
+        <div class="grid grid-cols-4 gap-4"></div>
     </div>
 </div>
