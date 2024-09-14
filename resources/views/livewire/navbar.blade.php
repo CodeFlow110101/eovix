@@ -6,7 +6,7 @@ use function Livewire\Volt\{state};
 
 ?>
 
-<div class="bg-black py-4 flex justify-center text-white">
+<div class="bg-black/90 py-4 flex justify-center text-white">
     <div class="flex justify-between items-center">
         <div class="w-full flex justify-between items-center gap-10">
             <div class="w-max">

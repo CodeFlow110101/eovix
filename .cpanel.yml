@@ -1,0 +1,14 @@
+---
+deployment:
+  tasks:
+    # Define the deployment path
+    - export DEPLOYPATH=/home/example/public_html/eovix
+
+    # Step 1: Run Composer update
+    - cd $DEPLOYPATH && composer update
+
+    # Step 2: Run Laravel migrations
+    - cd $DEPLOYPATH && php artisan migrate
+
+    # Step 3: Run Laravel optimization
+    - cd $DEPLOYPATH && php artisan optimize
