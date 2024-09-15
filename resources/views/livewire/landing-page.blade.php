@@ -16,5 +16,8 @@ mount(function () {
     <livewire:navbar />
     @if($path=='/' )
     <livewire:home />
+    @elseif($path=='contact' )
+    <livewire:contact />
     @endif
+    <livewire:footer />
 </div>

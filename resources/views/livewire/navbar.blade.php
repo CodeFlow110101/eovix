@@ -176,7 +176,7 @@ use function Livewire\Volt\{state};
                             </svg>
                         </div>
                         <div class="bg-white text-sm font-semibold h-min grid grid-cols-1 gap-4 rounded-md shadow-md shadow-black/40 py-2">
-                            <div class="px-4 py-2.5 cursor-pointer hover:bg-gray-200">Contact Form</div>
+                            <a href="/contact" wire:navigate class="px-4 py-2.5 cursor-pointer hover:bg-gray-200">Contact Form</a>
                             <div class="px-4 py-2.5 cursor-pointer hover:bg-gray-200">Locations</div>
                             <div class="px-4 py-2.5 cursor-pointer hover:bg-gray-200">Customer Support</div>
                             <div class="px-4 py-2.5 cursor-pointer hover:bg-gray-200">Help Desk</div>
