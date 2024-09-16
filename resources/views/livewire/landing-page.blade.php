@@ -18,6 +18,8 @@ mount(function () {
     <livewire:home />
     @elseif($path=='contact' )
     <livewire:contact />
+    @elseif(in_array($path,['courses/business-management']))
+    <livewire:courses :path="$path" />
     @endif
     <livewire:footer />
 </div>

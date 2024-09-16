@@ -8,12 +8,35 @@ use function Livewire\Volt\{state};
 
 <div>
     <div class="flex justify-between px-52 py-36 gap-20">
-        <div class="w-3/5 grid grid-cols-1 gap-2 h-min">
+        <div class="w-3/5 grid grid-cols-1 gap-20 h-min">
             <div class="grid grid-cols-1 gap-6 h-min">
                 <div class="text-5xl maven-pro-500">Contact us</div>
                 <div class="text-2xl maven-pro-200 tracking-wider">Want to find out more about our products and services? Can’t find what you’re looking for? Just want to talk to someone about online training in general? Get in touch!</div>
             </div>
-            <div></div>
+            <div class="bg-white grid geid-cols-1 gap-8 h-min shadow-md shadow-black/30 w-full p-6">
+                <div class="h-min grid grid-cols-1 gap-2 text-lg">
+                    <div>Full Name <span class="text-pink-500">*</span></div>
+                    <div><input type="text" class="outline-none border border-gray-300 p-2 focus:border-pink-500 transition-colors duraction-200 w-full"></div>
+                </div>
+                <div class="h-min grid grid-cols-1 gap-2 text-lg">
+                    <div>Email <span class="text-pink-500">*</span></div>
+                    <div><input type="text" class="outline-none border border-gray-300 p-2 focus:border-pink-500 transition-colors duraction-200 w-full"></div>
+                </div>
+                <div class="h-min grid grid-cols-1 gap-2 text-lg">
+                    <div>Phone no <span class="text-pink-500">*</span></div>
+                    <div><input x-mask="9999999999" class="outline-none border border-gray-300 p-2 focus:border-pink-500 transition-colors duraction-200 w-full"></div>
+                </div>
+                <div class="h-min grid grid-cols-1 gap-2 text-lg">
+                    <div>Please tell us about your inquiry <span class="text-pink-500">*</span></div>
+                    <div><textarea type="text" class="outline-none border border-gray-300 p-2 focus:border-pink-500 transition-colors duraction-200 w-full"></textarea></div>
+                </div>
+                <div class="text-lg text-gray-400">
+                    We will be in touch within 24 hours
+                </div>
+                <div class="rounded-full p-4 bg-pink-500 text-white text-center text-xl font-semibold hover:bg-pink-700 transition-colors duration-500 cursor-pointer">
+                    Submit
+                </div>
+            </div>
         </div>
 
         <div class="w-2/5 grid grid-cols-1 gap-28 h-min">
@@ -74,7 +97,7 @@ use function Livewire\Volt\{state};
         </div>
     </div>
 
-    <div class="">
+    <div>
         <div class="bg-gradient-to-r from-pink-500 to-violet-600 py-24 px-52 grid grid-cols-1 gap-5 h-min">
             <div class="text-white text-4xl maven-pro-500 tracking-tight">
                 Ready to get started?
