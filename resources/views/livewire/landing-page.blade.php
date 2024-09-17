@@ -14,12 +14,14 @@ mount(function () {
 
 <div>
     <livewire:navbar />
-    @if($path=='/' )
+    @if($path=='/')
     <livewire:home />
-    @elseif($path=='contact' )
+    @elseif($path=='contact')
     <livewire:contact />
-    @elseif(in_array($path,['courses/business-management']))
-    <livewire:courses :path="$path" />
+    @elseif($path=='courses')
+    <livewire:courses />
+    @elseif(in_array($path,['course/business-management','course/ai-&-machine-learning','course/software-development','course/sustainability-education']))
+    <livewire:course :path="$path" />
     @endif
     <livewire:footer />
 </div>
