@@ -1,28 +1,28 @@
 <?php
 
-use function Livewire\Volt\{state};
+use function Livewire\Volt\{state, mount};
 
-//
+state(['page']);
 
+mount(function ($path) {
+    $this->page = str_replace("-", " ", $path);
+});
 ?>
 
 <div>
     <div class="px-52 py-24 bg-gradient-to-r from-pink-500 to-violet-600 flex justify-between gap-2">
         <div class="w-full">
             <div class="grid grid-cols-1 gap-5 h-min text-white">
-                <div class="text-5xl maven-pro-500">We are Eovix</div>
-                <div class="text-xl font-light">
-                    We’re a market-leading provider of eLearning focusing on supporting businesses with high-quality Health & Safety, HR, Business Compliance, and Soft Skills workplace training. We’re here to help your teams by making training simple (and, dare we say it, less boring!).
-                </div>
-                <div class="text-xl font-light">
-                    With our unwavering dedication to quality, expertise, individual sector knowledge, and uncompromising customer support, being part of the iHasco training family is more than just a transaction – it’s an investment in the future of your business. </div>
-                <div class="text-xl font-light">
-                    Our core values inform everything we do; from our in-house production process to the ways in which we interact with our customers – and even the way we build our team. </div>
-                <div class="text-xl font-light">
-                    We’re pretty good at what we do, as the stats here back up…
-                </div>
-                <div class="text-xl font-semibold">
-                    Want to know more? Get in touch with us to see why over 12,000 companies trust us to support their training needs.
+                <div class="text-5xl maven-pro-500 capitalize">{{$page}}</div>
+                <div class="text-2xl font-light leading-10">
+                    @if($page == "our story")
+                    At <span class="font-semibold text-3xl">Eovix</span>, we are driven by a simple yet profound belief: education has the power to transform lives and shape a better future for our planet. Founded with a vision to bridge the gap between traditional learning and the demands of a rapidly evolving world, Eovix is committed to empowering individuals and organizations through innovative education, cutting-edge technology, and sustainable solutions.
+                    @elseif($page == "our values")
+                    At <span class="font-semibold text-3xl">Eovix</span>, our commitment to education and sustainability is grounded in a set of core values that define who we are, how we operate, and the impact we strive to make in the world. These values shape everything we do, from the design of our educational programs to our partnerships with organizations, and our dedication to fostering a sustainable future. Our values are not just ideals; they are the foundation of our mission to inspire and empower individuals and businesses alike.
+                    @elseif($page == "our impact")
+                    At <span class="font-semibold text-3xl">Eovix</span>, we measure success not only by the programs we deliver but by the tangible impact we create in the lives of individuals, businesses, and communities. Our commitment to education and sustainability has empowered learners and organizations to take meaningful action and achieve measurable results. Whether it’s reducing carbon footprints, upskilling professionals, or transforming educational institutions, the real-world impact of Eovix is felt across industries and geographies.
+                    <div class="mt-8 font-semibold text-3xl">Explore how Eovix is making a difference and driving positive change.</div>
+                    @endif
                 </div>
             </div>
         </div>
@@ -67,15 +67,14 @@ use function Livewire\Volt\{state};
         </div>
     </div>
 
-    <div class="py-20 grid grid-cols-1 gap-12 px-52">
-        <div class="maven-pro-500 text-4xl">Our Team</div>
-        <div class="h-min grid grid-cols-6 gap-3">
-            <div class="grid grid-cols-1 h-min gap-3">
-                <div class="bg-gray-500 w-full h-40"></div>
-                <div class="text-lg font-semibold">John Doe</div>
-                <div class="font-light">Director</div>
-            </div>
-        </div>
+    <div class="px-52 py-20">
+        @if($page == "our story")
+        <livewire:about.our-story />
+        @elseif($page == "our values")
+        <livewire:about.our-values />
+        @elseif($page == "our impact")
+        <livewire:about.our-impact />
+        @endif
     </div>
 
     <div class="py-20">

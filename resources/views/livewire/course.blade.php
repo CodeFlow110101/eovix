@@ -186,20 +186,4 @@ mount(function ($path) {
             </div>
         </div>
     </div>
-
-    <div class="px-52 py-20 h-min grid grid-cols-1 gap-8">
-        <div class="text-amber-400 maven-pro-600 text-3xl">
-            Frequently asked questions
-        </div>
-        <div>
-            <div x-data="{expanded:false}" class="bg-stone-200">
-                <div @click="expanded=!expanded" class="px-6 py-4 text-lg border border-black/10 cursor-pointer">Why is fire safety training important?</div>
-                <div x-show="expanded" x-cloak x-collapse.duration.800ms>
-                    <div class="px-6 py-4 text-lg font-thin border border-black/10 bg-white">
-                        UK fire services were called to over 11,000 primary fires in non-domestic buildings in 2019/20. Proper fire safety training is needed to help protect employees and visitors in the unlikely event of a fire, whilst helping them prevent fires in the first instance. Our online fire safety training courses will educate your workforce on managing fire risks, fire extinguisher use, fire safety precautions, and more. Fire safety training is also a legal requirement in the UK; the regulations are stated in the Health and Safety at Work Act 1974 and the Regulatory Reform (Fire Safety) Order 2005. All employers must provide adequate training to their employees so they are aware of fire safety measures and how to act should there be a fire. Employers should also conduct frequent refreshers to ensure employees retain the knowledge gained during initial training. Failing to stick to these regulations can result in fines and/or prosecution.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
