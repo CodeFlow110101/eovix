@@ -10,8 +10,13 @@ use function Livewire\Volt\{state};
     <div class="flex justify-between px-52 py-36 gap-20">
         <div class="w-3/5 grid grid-cols-1 gap-20 h-min">
             <div class="grid grid-cols-1 gap-6 h-min">
-                <div class="text-5xl maven-pro-500">Contact us</div>
-                <div class="text-2xl maven-pro-200 tracking-wider">Want to find out more about our products and services? Can’t find what you’re looking for? Just want to talk to someone about online training in general? Get in touch!</div>
+                <div class="text-5xl maven-pro-500 bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Request a Demo: Experience Eovix in Action</div>
+                <div class="text-2xl font-light tracking">
+                    Are you ready to explore how Eovix can transform your educational programs, corporate training, or sustainability initiatives? We invite you to <span class="font-medium bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Request a Demo</span> and experience firsthand how our cutting-edge solutions can empower your organization.
+                </div>
+                <div class="text-2xl font-light tracking">
+                    Whether you’re interested in our <span class="font-medium bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">AI-driven learning platforms, sustainability education programs, or corporate training solutions</span>, our personalized demo will give you a comprehensive look at how Eovix can help you achieve your goals. Our team will guide you through the features, functionality, and impact of our offerings, ensuring you understand how they can be tailored to your specific needs.
+                </div>
             </div>
             <div class="bg-white grid geid-cols-1 gap-8 h-min shadow-md shadow-black/30 w-full p-6">
                 <div class="h-min grid grid-cols-1 gap-2 text-lg">
@@ -97,14 +102,131 @@ use function Livewire\Volt\{state};
         </div>
     </div>
 
+    <div class="px-52 pb-10 h-min grid grid-cols-1 gap-8">
+        <div class="w-min whitespace-nowrap text-5xl maven-pro-500 bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent py-1">Why Request a Demo?</div>
+        <div class="h-min grid grid-cols-1 gap-5">
+            <div class="text-2xl">
+                <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">See Our Solutions in Action: </span>
+                <span class="font-light text-xl">
+                    Get a live walkthrough of Eovix’s platforms, tools, and programs and how they can be integrated into your business or institution.
+                </span>
+            </div>
+
+            <div class="text-2xl">
+                <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Tailored to Your Needs: </span>
+                <span class="font-light text-xl">
+                    Our demo is customized to address your specific requirements, whether you’re looking to upskill your workforce, integrate sustainability education, or enhance your institution’s curriculum.
+                </span>
+            </div>
+
+            <div class="text-2xl">
+                <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Expert Guidance: </span>
+                <span class="font-light text-xl">
+                    Our team of experts will answer your questions, explain the key benefits of our solutions, and help you understand how Eovix can provide lasting value to your organization.
+                </span>
+            </div>
+
+            <div class="text-2xl">
+                <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Explore Customization Options: </span>
+                <span class="font-light text-xl">
+                    Learn how Eovix can adapt to your organization’s unique needs, from personalized training modules to scalable educational programs.
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-52 py-10 h-min grid grid-cols-1 gap-8">
+        <div class="w-min whitespace-nowrap text-5xl maven-pro-500 bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent py-1">Who Should Request a Demo?</div>
+        <div class="h-min grid grid-cols-1 gap-5">
+            <div class="text-2xl">
+                <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Educational Institutions: </span>
+                <span class="font-light text-xl">
+                    Schools, universities, and training centers looking to integrate advanced learning tools, sustainability programs, or AI-driven solutions.
+                </span>
+            </div>
+
+            <div class="text-2xl">
+                <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Corporate Leaders: </span>
+                <span class="font-light text-xl">
+                    Businesses aiming to upskill their teams, adopt sustainable practices, or drive digital transformation with Eovix’s corporate training solutions.
+                </span>
+            </div>
+
+            <div class="text-2xl">
+                <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Government and NGOs: </span>
+                <span class="font-light text-xl">
+                    Organizations looking for educational programs that address sustainability, workforce development, and community empowerment.
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-52 pb-10 h-min grid grid-cols-1 gap-8">
+        <div class="w-min whitespace-nowrap text-5xl maven-pro-500 bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent py-1">What to Expect During Your Demo</div>
+        <div class="h-min grid grid-cols-1 gap-5">
+            <div class="text-2xl">
+                <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">During the demo, our team will: </span>
+            </div>
+            <div class="grid grid-cols-1 gap-3 h-min">
+                <div class="font-light text-xl">
+                    Provide an in-depth overview of the Eovix platforms and solutions relevant to your sector.
+                </div>
+                <div class="font-light text-xl">
+                    Show how our tools and programs can be customized to meet your organization’s unique needs. </div>
+                <div class="font-light text-xl">
+                    Demonstrate specific features, such as course management, real-time analytics, interactive learning modules, and more.
+                </div>
+                <div class="font-light text-xl">
+                    Discuss the benefits and impact of adopting Eovix’s innovative solutions.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-52 pb-20 h-min grid grid-cols-1 gap-8">
+        <div class="w-min whitespace-nowrap text-5xl maven-pro-500 bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent py-1">How to Request a Demo</div>
+        <div class="h-min grid grid-cols-1 gap-5">
+            <div class="text-2xl">
+                <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">
+                    It’s simple to get started! Just fill out the form below with your details, and our team will get in touch to schedule a time that works for you. We’ll ensure the demo is tailored to your organization’s needs and interests.
+                </span>
+            </div>
+            <div class="grid grid-cols-1 gap-3 h-min">
+                <div class="text-2xl">
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Contact Information: </span>
+                    <span class="font-light text-xl">
+                        Provide your name, company/school name, email, and phone number.
+                    </span>
+                </div>
+
+                <div class="text-2xl">
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Area of Interest: </span>
+                    <span class="font-light text-xl">
+                        Let us know if you’re interested in <span class="text-pink-500 font-medium">education programs, corporate training,</span> or <span class="text-pink-500 font-medium">sustainability solutions.</span>
+                    </span>
+                </div>
+
+                <div class="text-2xl">
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Contact Information: </span>
+                    <span class="font-light text-xl">
+                        Provide your name, company/school name, email, and phone number.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div>
         <div class="bg-gradient-to-r from-pink-500 to-violet-600 py-24 px-52 grid grid-cols-1 gap-5 h-min">
             <div class="text-white text-4xl maven-pro-500 tracking-tight">
-                Ready to get started?
+                Get Started Today!
+            </div>
+            <div class="text-white text-xl">
+                Ready to explore how Eovix can help you achieve your goals? <span class="font-bold text-2xl">Request a Demo</span> and discover how our innovative solutions can transform your organization and drive sustainable success. We look forward to working with you!
             </div>
             <div class="whitespace-nowrap flex justify-between gap-6 w-min">
-                <div class="font-semibold text-xl bg-amber-400 hover:bg-amber-500 transition-colors duration-300 cursor-pointer py-4 uppercase px-8 rounded-full">Try it for free</div>
-                <div class="font-semibold text-white border border-white hover:bg-white hover:text-black transition-colors duration-500 cursor-pointer text-xl bg-transparent py-4 uppercase px-8 rounded-full">Request a quote</div>
+                <div class="font-semibold text-white border border-white hover:bg-white hover:text-black transition-colors duration-500 cursor-pointer text-xl bg-transparent py-4 uppercase px-8 rounded-full">Request a Demo</div>
             </div>
         </div>
     </div>

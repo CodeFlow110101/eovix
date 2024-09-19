@@ -53,7 +53,7 @@ use function Livewire\Volt\{state};
                             </svg>
                         </div>
                         <div class="bg-white text-sm font-semibold h-min grid grid-cols-1 gap-0 rounded-md shadow-md shadow-black/40 py-2">
-                            <a href="/course/business-management" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Students</a>
+                            <a href="/for-students" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Students</a>
                             <a href="/course/ai-&-machine-learning" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Professionals</a>
                             <a href="/course/software-development" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Schools and Universities</a>
                             <a href="/course/sustainability-education" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Corporate</a>
@@ -154,7 +154,7 @@ use function Livewire\Volt\{state};
                         <div class="bg-white text-sm font-semibold h-min grid grid-cols-1 gap-0 rounded-md shadow-md shadow-black/40 py-2">
                             <a href="/contact" wire:navigate class="px-4 py-2.5 cursor-pointer hover:bg-gray-200">Get in Touch</a>
                             <div class="px-4 py-3 cursor-pointer hover:bg-gray-200">Locations</div>
-                            <div class="px-4 py-3 cursor-pointer hover:bg-gray-200">Request a Demo</div>
+                            <a href="/contact" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">Request a Demo</a>
                         </div>
                     </div>
                 </div>

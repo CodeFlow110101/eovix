@@ -21,7 +21,7 @@ use function Livewire\Volt\{state};
                 Eovix’s mission is to provide world-class education that equips students, professionals, and organizations with the skills and knowledge they need to excel in the digital and sustainable future. We are dedicated to:
             </div>
             <div class="grid grid-cols-1 gap-2 text-xl font-semibold  h-min">
-                <div class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">1) Delivering Transformative Learning Experiences:
+                <div class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Delivering Transformative Learning Experiences:
                     <span class="font-light text-black leading-9">
                         By offering innovative and practical courses in sustainability, artificial intelligence, and emerging technologies, we prepare learners to navigate the complexities of the modern world.
                     </span>
@@ -29,7 +29,7 @@ use function Livewire\Volt\{state};
             </div>
 
             <div class="grid grid-cols-1 gap-2 text-xl font-semibold  h-min">
-                <div class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">2) Empowering Change Through Sustainability:
+                <div class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Empowering Change Through Sustainability:
                     <span class="font-light text-black leading-9">
                         We embed sustainability at the core of our programs, helping individuals and organizations adopt eco-friendly practices, meet global environmental challenges, and create a greener future.
                     </span>
@@ -37,7 +37,7 @@ use function Livewire\Volt\{state};
             </div>
 
             <div class="grid grid-cols-1 gap-2 text-xl font-semibold  h-min">
-                <div class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">3) Fostering a Culture of Lifelong Learning:
+                <div class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent">Fostering a Culture of Lifelong Learning:
                     <span class="font-light text-black leading-9">
                         Our commitment to lifelong learning ensures that people of all ages, backgrounds, and industries have access to the education and tools they need to continuously grow and succeed.
                     </span>

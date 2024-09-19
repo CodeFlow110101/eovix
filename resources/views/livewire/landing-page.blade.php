@@ -22,8 +22,8 @@ mount(function () {
     <livewire:courses />
     @elseif(in_array($path,['our-story','our-values','our-impact']))
     <livewire:about.about :path="$path" />
-    @elseif(in_array($path,['course/business-management','course/ai-&-machine-learning','course/software-development','course/sustainability-education']))
-    <livewire:course :path="$path" />
+    @elseif(in_array($path,['for-students']))
+    <livewire:program :path="$path" />
     @endif
     <livewire:footer />
 </div>

@@ -16,14 +16,14 @@ use function Livewire\Volt\{state};
 
             <div class="grid grid-cols-1 gap-3 h-min">
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 1) Global Reach: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Global Reach: </span>
                     <span class="text-2xl font-thin">
                         Eovix’s programs have reached learners in multiple countries, providing them with flexible, high-quality education.
                     </span>
                 </div>
 
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 2) Career Advancement: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Career Advancement: </span>
                     <span class="text-2xl font-thin">
                         Many of our graduates have successfully transitioned into new careers or advanced within their current roles by applying the skills they gained from our courses in AI, data science, and sustainability.
                     </span>
@@ -39,14 +39,14 @@ use function Livewire\Volt\{state};
 
             <div class="grid grid-cols-1 gap-3 h-min">
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 1) Carbon Reduction: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Carbon Reduction: </span>
                     <span class="text-2xl font-thin">
                         Through tailored sustainability strategies, Eovix has helped businesses reduce their carbon emissions, leading to greener and more energy-efficient operations.
                     </span>
                 </div>
 
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 2) Operational Efficiency: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Operational Efficiency: </span>
                     <span class="text-2xl font-thin">
                         By integrating sustainability into supply chains and business models, companies have seen improved efficiency, cost savings, and enhanced corporate responsibility profiles.
                     </span>
@@ -62,14 +62,14 @@ use function Livewire\Volt\{state};
 
             <div class="grid grid-cols-1 gap-3 h-min">
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 1) Green Campus Initiatives </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Green Campus Initiatives </span>
                     <span class="text-2xl font-thin">
                         Eovix has worked with universities to implement energy-efficient campus operations, waste management programs, and sustainability-focused student projects.
                     </span>
                 </div>
 
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 2) Inspiring the Next Generation: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Inspiring the Next Generation: </span>
                     <span class="text-2xl font-thin">
                         By embedding sustainability in academic programs, Eovix has inspired students to pursue careers and projects focused on making the world a more sustainable place.
                     </span>
@@ -85,14 +85,14 @@ use function Livewire\Volt\{state};
 
             <div class="grid grid-cols-1 gap-3 h-min">
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 1) Enhanced CSR Profiles </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Enhanced CSR Profiles </span>
                     <span class="text-2xl font-thin">
                         Companies working with Eovix have seen an improvement in their CSR reporting, attracting investors, customers, and stakeholders who value social and environmental responsibility.
                     </span>
                 </div>
 
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 2) Measurable ESG Impact: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Measurable ESG Impact: </span>
                     <span class="text-2xl font-thin">
                         Our programs enable companies to measure and report on their ESG impact, including reductions in energy usage, waste, and carbon emissions.
                     </span>
@@ -108,14 +108,14 @@ use function Livewire\Volt\{state};
 
             <div class="grid grid-cols-1 gap-3 h-min">
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 1) Community Sustainability Programs: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Community Sustainability Programs: </span>
                     <span class="text-2xl font-thin">
                         Eovix has partnered with local governments and organizations to develop community sustainability initiatives that engage residents in reducing waste, conserving energy, and promoting eco-friendly practices.
                     </span>
                 </div>
 
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 2) Sustainable Innovation Challenges: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Sustainable Innovation Challenges: </span>
                     <span class="text-2xl font-thin">
                         We’ve hosted and facilitated numerous innovation challenges, bringing together students, professionals, and industry leaders to develop solutions for sustainability challenges in sectors like energy, agriculture, and urban development.
                     </span>
@@ -131,14 +131,14 @@ use function Livewire\Volt\{state};
 
             <div class="grid grid-cols-1 gap-3 h-min">
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 1) Thought Leadership: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Thought Leadership: </span>
                     <span class="text-2xl font-thin">
                         Eovix is regularly featured in industry events, conferences, and publications as a thought leader in sustainability and EdTech.
                     </span>
                 </div>
 
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 2) Workforce Transformation: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Workforce Transformation: </span>
                     <span class="text-2xl font-thin">
                         By delivering training on digital transformation and AI, Eovix has helped organizations future-proof their workforce, enabling them to adapt to the demands of an evolving global economy.
                     </span>
@@ -154,21 +154,21 @@ use function Livewire\Volt\{state};
 
             <div class="grid grid-cols-1 gap-3 h-min">
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 1) Carbon Emission Reductions: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Carbon Emission Reductions: </span>
                     <span class="text-2xl font-thin">
                         Partner organizations have collectively reduced thousands of tons of carbon emissions through the sustainability strategies we helped them implement.
                     </span>
                 </div>
 
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 2) Student Success: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Student Success: </span>
                     <span class="text-2xl font-thin">
                         Over 90% of Eovix course participants report increased confidence and knowledge in applying sustainable practices or advanced technologies in their fields.
                     </span>
                 </div>
 
                 <div>
-                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 "> 2) Industry Recognition: </span>
+                    <span class="bg-gradient-to-r from-pink-500 to-violet-600 bg-clip-text text-transparent text-2xl maven-pro-500 py-1 ">Industry Recognition: </span>
                     <span class="text-2xl font-thin">
                         Our clients and partners have been recognized for their sustainability efforts, receiving awards and accolades for the positive environmental impact facilitated by Eovix programs.
                     </span>
