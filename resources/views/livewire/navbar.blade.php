@@ -54,9 +54,9 @@ use function Livewire\Volt\{state};
                         </div>
                         <div class="bg-white text-sm font-semibold h-min grid grid-cols-1 gap-0 rounded-md shadow-md shadow-black/40 py-2">
                             <a href="/for-students" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Students</a>
-                            <a href="/course/ai-&-machine-learning" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Professionals</a>
-                            <a href="/course/software-development" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Schools and Universities</a>
-                            <a href="/course/sustainability-education" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Corporate</a>
+                            <a href="/for-professionals" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Professionals</a>
+                            <a href="/for-schools-and-universities" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Schools and Universities</a>
+                            <a href="/for-corporates" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">For Corporate</a>
                         </div>
                     </div>
                 </div>
@@ -78,10 +78,10 @@ use function Livewire\Volt\{state};
                             </svg>
                         </div>
                         <div class="bg-white text-sm font-semibold h-min grid grid-cols-1 gap-0 rounded-md shadow-md shadow-black/40 py-2">
-                            <div class="px-4 py-3 cursor-pointer hover:bg-gray-200">Why Sustainability Matters?</div>
-                            <div class="px-4 py-3 cursor-pointer hover:bg-gray-200">Sustainability Education</div>
-                            <div class="px-4 py-3 cursor-pointer hover:bg-gray-200">Success Stories</div>
-                            <div class="px-4 py-3 cursor-pointer hover:bg-gray-200">Industry Insights</div>
+                            <a href="/why-sustainability-matters" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">Why Sustainability Matters?</a>
+                            <a href="/sustainability-education" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">Sustainability Education</a>
+                            <a href="/success-stories" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">Success Stories</a>
+                            <a href="/industry-insights" wire:navigate class="px-4 py-3 cursor-pointer hover:bg-gray-200">Industry Insights</a>
                         </div>
                     </div>
                 </div>
